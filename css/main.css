@@ -4,7 +4,121 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+.banner {
+  height: 500px;
+  background-image: url(http://dokukova.com/wp-content/uploads/2019/06/bgtile.png);
+  background-size: contain;
+}
+
+.phones {
+  float: left;
+  padding: 200px 70px 70px 170px;
+}
+
+.phones img {
+  width: 150%;
+}
+
+.brand {
+  padding: 220px 0 0 770px;
+}
+
+.brand img {
+  width: 50%;
+}
+
+.brand button {
+  height: 60px;
+  width: 130px;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  color: white;
+  margin-left: 200px;
+  position: relative;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+.login img {
+  width: 40px;
+}
+
+.section {
+  height: 650px;
+  position: relative;
+  left: 200px;
+  top: -120px;
+}
+
+.frame img {
+  width: 50%;
+}
+
+.text {
+  width: 45%;
+  position: relative;
+  top: -500px;
+  left: 600px;
+}
+
+.text h1 {
+  color: #06365f;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.text p {
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+.app {
+  position: absolute;
+  right: 750px;
+  bottom: 70px;
+}
+
+.app img {
+  height: 70px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.nav-bottom a {
+  color: #1c5380;
+  text-decoration: none;
+  padding-bottom: 100px;
+}
+
+.nav-links {
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  left: 50%;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+.copy {
+  color: grey;
 }
